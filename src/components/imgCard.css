@@ -1,0 +1,42 @@
+.card{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.fevCard{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.card img,.fevCard img{
+    height: 100%;
+    width: 100%;
+}
+#white {
+    position: relative;
+    bottom: 6rem;
+    left: 24rem;
+    font-size: 4rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#red{
+    position: relative;
+    bottom: 6rem;
+    left: 24rem;
+    font-size: 4.3rem;
+    color: rgb(255, 89, 89);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.fevCard span{
+    position: relative;
+    bottom: 5rem;
+    left: 15rem;
+    font-size: 3rem;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
